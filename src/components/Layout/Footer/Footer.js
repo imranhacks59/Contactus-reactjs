@@ -11,7 +11,9 @@ const Footer = () => {
                 borderBottom:'2px solid white'
              }}
              >About TECHVICTUS</h2>
-             <p>
+             <p style={{
+              marginTop:'10px'
+             }}>
              Join our Faculty Development Programfor professional growth and innovation.Unlock your full potential today!"
              </p>
         </div>
@@ -21,7 +23,9 @@ const Footer = () => {
                 borderBottom:'2px solid white',
                 marginTop:-5
             }}>Quick Links</h2>
-              <ul>
+              <ul style={{
+                marginTop:'10px'
+              }}>
                 <li>Home</li>
               
                 <li>About</li>
@@ -33,7 +37,7 @@ const Footer = () => {
         <h2 style={{
             fontWeight:'500',
             borderBottom:'2px solid white',
-            marginTop:'-27px',
+            marginTop:'-40px',
             // marginBottom:'15px'
         }}>Social Media</h2>
             <div style={{
